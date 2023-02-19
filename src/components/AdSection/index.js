@@ -1,9 +1,9 @@
 import EL from "../../utils/EL.js";
 
-const AddSection = ()=>{
+const AddSection = () => {
     const add_section = EL({
         element: 'div',
-        className: 'flex flex-row flex-wrap w-11/12 h-full p-4',
+        className: 'flex flex-row flex-wrap w-4/5 h-screen p-4 overflow-y-scroll grid-cols-5',
         children: [
             EL({
                 element: 'div',
@@ -90,7 +90,7 @@ const AddSection = ()=>{
                         ]
                     }),
                 ]
-            }),EL({
+            }), EL({
                 element: 'div',
                 className: 'border-2 border-slate h-36 w-80 p-2 m-2 rounded',
                 children: [

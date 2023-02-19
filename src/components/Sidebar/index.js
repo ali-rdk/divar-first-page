@@ -3,7 +3,7 @@ import EL from '../../utils/EL.js';
 const Sidebar = ()=>{
     const sidebar = EL({
         element: 'div',
-        className: 'flex flex-col h-full w-50 right-0 absolute m-8 scroll-smooth hover:scroll-auto',
+        className: 'flex flex-col h-screen w-1/5 right-0 absolute overflow-y-scroll ',
         children: [
             EL({
                 element: 'div',
